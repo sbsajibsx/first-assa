@@ -8,11 +8,7 @@
 
 /* shared styles */
 
-.btn{
-    padding: 20px 25px;
-    font-size: 20px;
-    border-radius: 10px;
-}
+
 .text-center{
     text-align: center;
 }
@@ -28,12 +24,18 @@
     list-style: none;
 }
 
+.btn{
+    background-color: white;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
 
 /* banner styles */
 
 .banner{
     background-image: url(../assets/Hero-bg.png);
-    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
@@ -42,16 +44,12 @@
     text-align: center;
 }
 .banner .banner-content{
-    /* display: block; */
-    /* justify-content: center; */
-    /* align-items: center; */
     text-align: center;
 }
 .banner .banner-content .banner-title{
-    font-size: 48px;
-    /* margin-left: 221px; */
-    /* margin-right: 221px; */
-    border: 32px 221px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 50px;
 }
 .banner .banner-content .banner-info{
     padding: 32px 300px;
@@ -64,4 +62,83 @@
     border-radius: 10px;
     background-color: #0D1321;
     color: #FFFFFF;
+}
+.banner .banner-all{
+    margin: 20px 150px;
+}
+
+/* main scection-1 styles */
+
+.section-1{
+    margin: 74px 150px;
+    background-color: #0d132108;
+    padding: 80px 97px;
+    
+}
+.section-1 .section-1-content h1{
+    text-align: center;
+    font-size: 32px;
+    /* margin-top: 80px; */
+}
+.section-1-box-1 {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 48px;
+    padding: 48px;
+}
+.section-1-box-1 .section-1-box-1-info h3{
+    font-size: 24px;
+    color: #0d1321cb;
+    margin-top: 32px;
+}
+.section-1-box-1 .section-1-box-1-info button{
+    padding: 12px 20px;
+    margin-top: 30px;
+    background-color: white;
+}
+.section-1-box-1 .section-1-box-1-info p{
+    margin-top: 16px;
+}
+
+.section-1-box-2 {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 48px;
+    padding: 48px;
+}
+.section-1-box-2 .section-1-box-2-info h3{
+    font-size: 24px;
+    color: #0d1321cb;
+    margin-top: 32px;
+}
+.section-1-box-2 .section-1-box-2-info button{
+    padding: 12px 20px;
+    margin-top: 30px;
+    background-color: white;
+}
+.section-1-box-2 .section-1-box-2-info p{
+    margin-top: 16px;
+}
+
+.section-1-box-3 {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 48px;
+    padding: 48px;
+}
+.section-1-box-3 .section-1-box-3-info h3{
+    font-size: 24px;
+    color: #0d1321cb;
+    margin-top: 32px;
+}
+.section-1-box-3 .section-1-box-3-info button{
+    padding: 12px 20px;
+    margin-top: 30px;
+    background-color: white;
+}
+.section-1-box-3 .section-1-box-3-info p{
+    margin-top: 16px;
 }
