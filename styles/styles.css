@@ -235,9 +235,48 @@ main{
     margin-top: 24px;
     color: black;
 }
+
 .section-3 .div-2-box-3-info h1{
     font-size: 24px;
 }
 .section-3 .div-2-box--info p{
     margin-top: 8px;
+}
+
+/* section-4 */
+.section-4{
+    margin: 74px 150px;
+}
+.section-4 .section-4-banner h1{
+    font-size: 32px;
+}
+.section-4 .section-4-banner p{
+    margin-top: 24px;
+}
+.section-4-div-box-1{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    padding: 40px;
+    border: 5px solid #c2bfbf1e;
+    border-radius: 10px;
+    margin-top: 48px;
+}
+.section-4-div-box-2{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    padding: 40px;
+    border: 5px solid #c2bfbf1e;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.section-4-div-box-3{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    padding: 40px;
+    border: 5px solid #c2bfbf1e;
+    border-radius: 10px;
+    margin-top: 25px;
 }
